@@ -19,7 +19,7 @@
   <body>
     <header></header>
     <main>
-      <section>
+      <section class="container">
         <h1>Crear Persona</h1>
 
         <form id="personaForm">
@@ -28,16 +28,12 @@
 
           <label for="edad">Edad:</label>
           <input type="number" id="edad" required />
-
-          <button type="button" onclick="crearPersona()">Crear Persona</button>
+          <button type="button" class="btn btn-primary" onclick="crearPersona()">Crear Persona</button>
         </form>
 
-        <button type="button" onclick="mostrarGeneracion()">
-          Mostrar Generación
-        </button>
-        <button type="button" onclick="esMayorEdad()">
-          ¿Es Mayor de Edad?
-        </button>
+
+        <button type="button" class="btn btn-success" onclick="mostrarGeneracion()">Mostrar Generacion</button>
+        <button type="button" class="btn btn-info" onclick="esMayorEdad()">¿Es mayor de edad?</button>
       </section>
     </main>
     <footer></footer>
