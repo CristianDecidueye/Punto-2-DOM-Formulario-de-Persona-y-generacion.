@@ -1,0 +1,7 @@
+body{
+    min-height: 100vh;
+    display: flex;
+}
+main{
+    flex-grow: 1;
+}
