@@ -17,24 +17,29 @@
     <title>PUNTO 2 DOM, GENERACIONES</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <section class="container">
-        <h1>Crear Persona</h1>
+    <header>
 
-        <form id="personaForm">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" required />
+    </header>
+    <main class="container">
+      <section class="row justify-content-center">
+        <article class="col-6 col-md-12 col-lg-12">
 
-          <label for="edad">Edad:</label>
-          <input type="number" id="edad" required />
-          <button type="button" class="btn btn-primary" onclick="crearPersona()">Crear Persona</button>
-        </form>
-
-
-        <button type="button" class="btn btn-success" onclick="mostrarGeneracion()">Mostrar Generacion</button>
-        <button type="button" class="btn btn-info" onclick="esMayorEdad()">¿Es mayor de edad?</button>
-      </section>
+          <h1 class="py-2">Crear Persona</h1>
+  
+          <form id="personaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required />
+  
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required />
+            <button type="button" class="btn btn-primary my-2" onclick="crearPersona()">Crear Persona</button>
+          </form>
+  
+  
+          <button type="button" class="btn btn-success my-2" onclick="mostrarGeneracion()">Mostrar Generacion</button>
+          <button type="button" class="btn btn-info my-2" onclick="esMayorEdad()">¿Es mayor de edad?</button>
+        </section>
+        </article>
     </main>
     <footer></footer>
     <script
